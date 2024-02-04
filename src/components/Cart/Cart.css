@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  width: 60%;
+  margin: auto;
+}
+
+.cart_box img {
+  width: 100px;
+  height: 100px;
+}
+.cart_img {
+  display: flex;
+  width: 400px;
+}
+.cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.cart_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  border-bottom: 2px solid blue;
+  padding-bottom: 7px;
+}
+
+.btns .btn1 {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.btns .btn2 {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.btns .btn3 {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.prices {
+  font-weight: bold;
+}
+.prices button {
+  font-weight: bold;
+  margin-left: 0.5rem;
+  font-size: 18px;
+  width: 90px;
+  height: 35px;
+  letter-spacing: 0.05em;
+  border: none;
+  outline: none;
+  color: red;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prices span {
+  background-color: lightcyan;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.prices button:hover {
+  background-color: red;
+  color: black;
+}
+.rupees {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.rupees span:nth-child(1) {
+  letter-spacing: 0.06rem;
+  font-size: 2rem;
+  color: rgb(10, 182, 249);
+}
+.rupees span:nth-child(2) {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+}

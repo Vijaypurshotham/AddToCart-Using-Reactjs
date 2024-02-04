@@ -1,0 +1,56 @@
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+
+.cards {
+  width: 250px;
+  padding: 20px;
+}
+
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.image_box img {
+  width: 250px;
+  height: 280px;
+}
+.details p:nth-child(1) {
+  font-weight: bold;
+  font-size: 15px;
+}
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+}
+.details p:nth-child(2):hover {
+  color: black;
+  font-weight: bold;
+}
+.details p:nth-child(3) {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: grey;
+}
+.details p:nth-child(3):hover {
+  color: black;
+}
+
+.details button {
+  padding: 5px 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: rgb(112, 251, 251);
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
